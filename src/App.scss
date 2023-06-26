@@ -1,0 +1,16 @@
+
+
+#worldBoundary {
+  border: 2px solid black;
+  aspect-ratio: 1/1;
+  height: 90vh;
+  position: relative;
+
+  .bubble {
+    border: 2px solid red;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 100px;
+    position: absolute;
+  }
+}
